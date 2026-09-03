@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: print a welcom message
-        run: echo"welcome to your workflow!"
+        run: echo "welcome to your workflow!"
 
       - name: checkout repository
         uses: actions/checkout@v4.2.2
