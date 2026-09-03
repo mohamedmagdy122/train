@@ -1,0 +1,16 @@
+name : first workflow concurrency
+on : 
+  branches:
+    -main
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print a welcom message
+        run: echo"welcome to your workflow!"
+
+      - name: checkout repository
+        uses: actions/checkout@v4.2.2
+      
