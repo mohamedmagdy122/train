@@ -1,7 +1,7 @@
 name : first workflow concurrency
 on : 
   branches:
-    -main
+    - main
 
 jobs:
   example-job:
